@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "~public-portal/*": ["./public/*"],
+      "~portal/*": ["./src/*"]
+    }
+  },
+  "include": ["./src", "../app-commons/src/process.env.d.ts"]
+}

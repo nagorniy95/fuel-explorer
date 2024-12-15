@@ -1,0 +1,37 @@
+{
+  "name": "app-commons",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./src/chains/fuel": "./src/chains/fuel.ts",
+    "./src/utils/dayjs": "./src/utils/dayjs.ts"
+  },
+  "scripts": {
+    "ts:check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@fuels/ui": "workspace:*",
+    "ethers": "6.11.0",
+    "fuels": "0.94.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-variants": "0.1.20",
+    "dayjs": "1.11.10"
+  },
+  "devDependencies": {
+    "@fuels/ui": "workspace:*",
+    "@types/react": "18.2.54",
+    "@types/react-dom": "18.2.22",
+    "ethers": "6.11.0",
+    "fuels": "0.94.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-variants": "0.1.20",
+    "typescript": "5.4.5",
+    "dayjs": "1.11.10"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "links": {
+    "learn": [
+      {
+        "href": "https://fuel.network/about-fuel",
+        "label": "What's Fuel?"
+      },
+      {
+        "href": "https://fuel.network/learn-execution",
+        "label": "Learn about Execution"
+      },
+      {
+        "href": "https://fuel.mirror.xyz/",
+        "label": "Blog"
+      }
+    ],
+    "build": [
+      {
+        "href": "https://docs.fuel.network/",
+        "label": "Docs"
+      },
+      {
+        "href": "https://github.com/FuelLabs",
+        "label": "Github"
+      },
+      {
+        "href": "https://forum.fuel.network/",
+        "label": "Forum"
+      }
+    ],
+    "use": [
+      {
+        "href": "https://app.fuel.network/",
+        "label": "Block explorer"
+      },
+      {
+        "href": "https://app.fuel.network/ecosystem",
+        "label": "Ecosystem"
+      },
+      {
+        "href": "https://wallet.fuel.network/",
+        "label": "Wallet"
+      },
+      {
+        "href": "https://app.fuel.network/bridge",
+        "label": "Bridge"
+      }
+    ],
+    "community": [
+      {
+        "href": "https://jobs.lever.co/fuellabs",
+        "label": "Become a contributor"
+      },
+      {
+        "href": "https://airtable.com/appEO4t5bVydYgzCk/pag7Jhp6zbEwjkTQt/form",
+        "label": "Apply for a grant"
+      },
+      {
+        "href": "https://www.notion.so/native/fuellabs/Fuel-Media-Kit-External-8dd982980d9842b181997f5b81595940",
+        "label": "Media kit"
+      }
+    ]
+  }
+}
